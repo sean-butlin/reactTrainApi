@@ -6,7 +6,7 @@ const products = require('./json/products');
 
 app.use(express.json());
 
-app.get('/products', (req,res) => {
+app.get('/', (req,res) => {
     res.status(200).json(products);
 })
 
