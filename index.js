@@ -7,7 +7,7 @@ const products = require('./json/products');
 app.use(express.json());
 
 app.get('/products', (req,res) => {
-    res.send(products);
+    res.status(200).json(products);
 })
 
 app.use(cors());
