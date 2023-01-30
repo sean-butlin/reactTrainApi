@@ -8,6 +8,10 @@ app.use(express.json());
 
 app.use('/products', products);
 
+app.get('/products', (req,res) => {
+    res.send(products);
+})
+
 app.use(cors());
 
 const port = process.env.PORT || 5500;
