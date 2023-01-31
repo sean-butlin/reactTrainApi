@@ -11,7 +11,8 @@ app.get('/', (req,res) => {
 })
 
 app.use(cors({
-    origin: '*'
+    origin: '*',
+    methods: ['GET']
 }));
 
 const port = process.env.PORT || 5500;
