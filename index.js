@@ -10,7 +10,9 @@ app.get('/', (req,res) => {
     res.status(200).json(products);
 })
 
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 
 const port = process.env.PORT || 5500;
 app.listen(port, () => console.log(`Listening on Port: ${port}`));
