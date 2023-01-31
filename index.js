@@ -11,7 +11,7 @@ app.get('/', cors(), (req,res) => {
 })
 
 app.use(cors({
-    origin: false,
+    origin: '*',
     methods: ['GET']
 }));
 
