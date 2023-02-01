@@ -24,6 +24,7 @@ const products = {
                 {
                     "id": "fzz86611-1",
                     "color": "black",
+                    "swatchImageUrl": "https://media.boohoo.com/i/boohoo/fzz86611_black_xl_s?w=32&h=32",
                     "sizes": [
                         {
                             "size": 8,
@@ -61,6 +62,7 @@ const products = {
                 {
                     "id": "fzz86611-2",
                     "color": "stone",
+                    "swatchImageUrl": "https://media.boohoo.com/i/boohoo/fzz86611_stone_xl_s?w=32&h=32",
                     "sizes": [
                         {
                             "size": 8,
@@ -122,6 +124,7 @@ const products = {
                 {
                     "id": "fzz02614-1",
                     "color": "black",
+                    "swatchImageUrl": "https://media.boohoo.com/i/boohoo/fzz02614_black_xl_s?w=32&h=32",
                     "sizes": [
                         {
                             "size": 8,
@@ -160,6 +163,7 @@ const products = {
                 {
                     "id": "fzz02614-2",
                     "color": "stone",
+                    "swatchImageUrl": "https://media.boohoo.com/i/boohoo/fzz02614_stone_xl_s?w=32&h=32",
                     "sizes": [
                         {
                             "size": 8,
